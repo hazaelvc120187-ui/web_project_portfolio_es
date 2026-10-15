@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portafolio.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+    <link rel="stylesheet" href="./css/normalize.css" >
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
     <link rel="preconnect" href="https://fonts.googleapis.com" >
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
@@ -55,7 +56,10 @@
          <h3>Proyectos destacados</h3>
          <div class="projects-list">
           <article class="project">
-            <img src="images/cafeespecialidades.png" alt="Café Especialidades">
+             <div class="project__image-container">
+              <img src="images/cafeespecialidades.png" alt="Café Especialidades" class="project__image">
+              <div class="project__gradient"></div>
+             </div>
 
          <div class="project-content">
             <h3>Página web de una cafetería</h3>
@@ -78,7 +82,11 @@
          </article>
 
          <article class="project">
-            <img src="images/JSproyect.png" alt="Proyecto JavaScript">
+
+          <div class="project__image-container">
+            <img src="images/JSproyect.png" alt="Proyecto JavaScript" class="project__image">
+            <div class="project__gradient"></div>
+          </div>
 
            <div class="project-content">
             <h3>Mi proyecto</h3>
