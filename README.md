@@ -19,5 +19,5 @@ Fuentes personalizadas mediante @font-face.
 Git y GitHub para el control de versiones y la publicación del proyecto.
 
 ### Enlace al proyecto
-https://github.com/hazaelvc120187-ui/web_project_portfolio_es
+https://hazaelvc120187-ui.github.io/web_project_portfolio_es/
 
